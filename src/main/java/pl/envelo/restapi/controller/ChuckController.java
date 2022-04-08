@@ -10,7 +10,6 @@ import pl.envelo.restapi.service.ChuckService;
 @RestController
 @RequestMapping("/chuck")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://dojo-chuck-joke.herokuapp.com/chuck")
 public class ChuckController {
 
     private final ChuckService service;
